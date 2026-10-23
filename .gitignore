@@ -66,3 +66,16 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio local state
+.vs/
+*.vcxproj.user
+
+# Downloaded WebView2 SDK and release output
+/packages/
+/dist/
+
+# Portable browser profiles (at any output location)
+Data/
+
+/tests/
